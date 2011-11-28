@@ -1,0 +1,10 @@
+Gesty
+
+Project GestyWallPaper references AmbilWarna color picker project, that is a "library project". So pay attention when importing.
+
+Current state of Gesty is feature-complete, but not final yet. Some resources and layouts are hard coded, list of resources not complete yet (current graphics is mostly mdpi), performance not yet optimized, needs more testing.
+
+Used libraries:
+http://code.google.com/p/android-color-picker/
+android open source project (android.gesture)
+some examples from "stack overflow" etc.
