@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andreid.gesty.ui.custom.CheckableRelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="50dp" 
+	android:orientation="vertical" 
+	android:paddingLeft="14dip"
+	android:background="@drawable/listelement_white_selector">
+
+	<LinearLayout
+		android:layout_width="84dp" 
+		android:layout_height="wrap_content"
+		android:id="@+id/cd_buttons"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<com.andreid.gesty.ui.custom.InertCheckBox
+			  android:id="@+id/cd_toggle_btn"
+			  android:layout_height="40dp" 
+		 	  android:layout_width="40dp"
+			  android:layout_marginLeft="2dip"
+			  android:focusable="false"/>
+	    <ImageView
+		  	  android:id="@+id/cd_image_gesture"
+		  	  android:layout_height="42dp"
+		  	  android:layout_width="42dp"
+		  	  android:src="@drawable/icon_gesty">
+		</ImageView>
+	</LinearLayout> 
+	
+	<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:gravity="center_vertical"
+		android:orientation="vertical"
+		android:id="@+id/first_row"
+		android:layout_toLeftOf="@id/cd_buttons">
+		<TextView android:id="@+id/cd_label"
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:layout_alignParentLeft="true"
+			  android:text="Mobiles"
+			  android:textAppearance="@style/TextSmall"/>
+		<TextView 
+			  android:id="@+id/cd_value" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:text="+49 12 3494359473447i78o8u4tr4r4t"
+			  android:singleLine="true"
+			  android:ellipsize="end"
+			  android:textAppearance="@style/TextMediumBold"/>
+		 
+    </LinearLayout>  
+</com.andreid.gesty.ui.custom.CheckableRelativeLayout>

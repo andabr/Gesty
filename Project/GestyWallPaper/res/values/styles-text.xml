@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CDDL HEADER START
+	The contents of this file are subject to the terms of the Common Development
+	and Distribution License (the "License").
+	You may not use this file except in compliance with the License.
+
+	You can obtain a copy of the license at
+	src/com/vodafone360/people/VODAFONE.LICENSE.txt or
+	http://github.com/360/360-Engine-for-Android
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+	When distributing Covered Code, include this CDDL HEADER in each file and
+	include the License file at src/com/vodafone360/people/VODAFONE.LICENSE.txt.
+	If applicable, add the following below this CDDL HEADER, with the fields
+	enclosed by brackets "[]" replaced with your own identifying information:
+	Portions Copyright [yyyy] [name of copyright owner]
+
+	CDDL HEADER END
+
+	Copyright 2010 Vodafone Sales & Services Ltd.  All rights reserved.
+	Use is subject to license terms.
+-->
+
+<resources>
+	<style name="DialogText">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+ 
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="CallLogsText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="CallLogsText.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+
+    <style name="TextHistoryTimestamp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextHistoryMessage">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextHistoryContactName">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextHistoryComposeDefaultText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#848284</item>
+    </style>
+    <style name="TextHistoryComposeButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#111111</item>
+    </style>
+
+    <style name="TextContactListItemContactName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContactListItemContactStatus">
+        <item name="android:textSize">16sp</item>
+        <!-- TODO : Color ? -->
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="TextDialerContactNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextDialerContactName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextDialerDigit">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextDialerDigitDescription">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextDialerCallButton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextConversationItemContactName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextConversationItemLastMessageSender">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextConversationItemLastMessage">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextConversationItemTimestamp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextConversationItemNotificationBadge">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+
+    <style name="TextContactContactName">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextContactRecentLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContactRecentItem">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextContactButtons">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContactNumberLabel">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContactNumberValue">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextInCallEndCallButton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextInCallContactLabel">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextInCallDuration">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+    </style>
+    <style name="TextInCallButtons">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="TextChatHistoryAction">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextSetupDescription">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextVeryLarge">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:lineSpacingExtra">34sp</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:shadowRadius">2.75</item>
+    </style>    
+    <style name="TextLargeBold">
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="TextMediumBold">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:lineSpacingExtra">18sp</item>
+		<item name="android:shadowRadius">2.75</item>
+    </style>
+	<style name="TextMedium">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">14sp</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:lineSpacingExtra">18sp</item>
+		<item name="android:shadowRadius">2.75</item>
+    </style>
+	<style name="TextMedium20sp">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">14sp</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:lineSpacingExtra">20sp</item>
+		<item name="android:shadowRadius">2.75</item>
+    </style>
+	<style name="TextSmall">
+        <item name="android:textColor">@color/base_gray</item>
+        <item name="android:textSize">12sp</item>
+		<item name="android:shadowColor">#BB000000</item>
+		<item name="android:lineSpacingExtra">18sp</item>
+		<item name="android:shadowRadius">2.75</item>
+    </style>  
+    <style name="TextListSection">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>    
+</resources>

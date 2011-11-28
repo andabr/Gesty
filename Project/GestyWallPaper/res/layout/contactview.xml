@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:divider="@color/base_gray"
+    android:background="@drawable/background_gradient">
+    <include android:id="@+id/cd_screen_header"
+             android:layout_alignParentTop="true"
+        	layout="@layout/menu_block"/>
+    <TextView 
+      android:id="@+id/cd_screen_title"
+      android:layout_marginTop="10dp"
+      android:layout_below="@id/cd_screen_header"
+      android:text="Direct Contact"
+      android:textAppearance="@style/TextLargeBold" 
+      android:paddingLeft="10dp"
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content"/>  
+    <TextView 
+      android:id="@+id/cd_screen_description"
+      android:layout_below="@id/cd_screen_title"
+      android:text="Choose the way to contact this person by assigning a specific gesture to the phone number or email."
+      android:padding="10dp"
+      android:textAppearance="@style/TextMedium"
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content"/> 
+    <LinearLayout
+      android:id="@+id/cd_header_contact"
+      android:layout_below="@+id/cd_screen_description"
+      
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+	  <ImageView 
+		android:id="@+id/contactpicture"
+		android:src="@drawable/avatar"
+		android:paddingLeft="6dp"
+		android:layout_alignParentLeft="true"
+		android:layout_gravity="center_vertical"
+		android:layout_width="44dp"
+		android:layout_height="44dp"/>
+	  <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/contactname"
+		android:text="Name LastName"
+		android:textAppearance="@style/TextMediumBold"
+		android:layout_gravity="center_vertical"
+		android:paddingLeft="6dip"/>
+	  </LinearLayout>
+    	  
+      <Button
+      	  android:id="@+id/cd_button_create"
+      	  android:text="create a new gesture"
+      	  android:textColor="@color/white"
+      	  android:textStyle="bold"
+      	  android:onClick="createGesture"
+      	  android:layout_width="fill_parent"
+      	  android:layout_height="42dp"
+      	  android:layout_alignParentBottom="true"
+      	  android:background="@drawable/btn_purple_selector"
+      	  android:layout_marginLeft="20dp"
+      	  android:layout_marginRight="20dp"
+      	  android:layout_marginTop="16dp"
+      	  android:layout_marginBottom="22dp">
+      </Button>  
+	  <ListView
+		  android:id="@android:id/list"
+	      android:choiceMode="singleChoice"
+	      android:cacheColorHint="#FFFFFFFF"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_below="@id/cd_header_contact"
+	      android:layout_above="@id/cd_button_create">
+	  </ListView>
+</RelativeLayout>
