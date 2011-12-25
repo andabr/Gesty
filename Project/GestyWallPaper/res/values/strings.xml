@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gesty</string>
+    <string name="create_activity_title">Create new gesture</string>
+    <string name="app_copyright">© </string>
+    <string name="progress_waiting_text">Waiting...</string>
+    <string name="save_success">Saved changes.</string>
+    
+    <string name="button_save">Save</string>
+    <string name="button_retry">Try again</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_add_new_gesture">Add new gesture</string>
+    <string name="button_draw_gesture">Draw a gesture</string>
+    <string name="button_delete">Delete</string>
+    
+    
+    <string name="tab_contacts">Contacts</string>
+    <string name="tab_installed_apps">Apps</string>
+    <string name="tab_urls">Web</string>
+    <string name="tab_all_gestures">All</string>
+    <string name="tab_all_contacts">All contacts</string>
+    <string name="tab_favourites">Favourites</string> 
+    
+    <string name="title_contacts">Contacts</string>
+    <string name="explanation_contacts">Assign a gesture for viewing the contact profile of one of the address book entries below </string>
+    <string name="search_bar_hint">Search contacts...</string>
+    <string name="welcome_text">Welcome to Gesty, an application that allows you creating the personalized gesture shortcuts to you favourite contacts, applications and websites. \n\nPress Next and teach your smartphone to be even smarter.</string>
+    <string name="about_text">Created and developed by Andrei Abraztsou.\n\nVodafone Group Client Development Team Products and Services, version 1.0.</string>
+    <string name="help_text">Gesty lets you create personal, hand drawn gestures that act as shortcuts to the functions you use the most on your phone. You can create simple gestures for your contacts, apps and websites that let you access them quickly and easily. 
+\n\nTap the Intro button for a guided tour of how to use Gesty.</string>
+    <string name="welcome_skip_intro">Skip this Intro</string>
+	<string name="welcome_title">Welcome to Gesty</string>
+	<string name="welcome_page_0">
+		Gesty lets you create personal, hand drawn gestures that act as shortcuts to the functions you use the most on your phone. You can create simple gestures for your contacts, apps and websites that let you access them quickly and easily. 
+\n\nTap the Intro button for a guided tour of how to use Gesty.</string>
+	<string name="welcome_page_1">
+		To create and assign a new gesture, tap the \‚Add new gesture\’ button on your gestures overview page.</string>
+	<string name="welcome_page_2">
+		Next, tap on the category you want to assign a gesture to. You can assign gestures to apps, actions, contacts and websites.</string>
+	<string name="welcome_page_3">
+		When prompted, draw the gesture you want to assign to this app, action, contact or website. It can be any shape you like, but the simpler the better. You can try as many times as you want, and when you\’re done just tap the \‚Save\’ button.</string>
+	<string name="welcome_page_4">
+		To add the Gesty widget to your homescreen, long-press your Android phone\’s homescreen and select it from the list.</string>
+	<string name="welcome_page_5">
+		To use Gesty, just tap the widget on your homescreen and draw the gesture for the app, action, contact or website you want. If Gesty doesn\’t recognise the gesture you\’ve drawn, try again or tap on the \‚Saved gestures\’ button to see and edit your existing gestures.</string>
+    <string name="settings_description">You can customise your gesty app by choosing the colour and accuracy of your gestures.</string>
+    <string name="settings_color_text">Choose a colour for your gestures</string>
+    <string name="settings_accuracy_text">Adjust gesture recognition accuracy</string>
+    <string name="settings_accuracy_text_less">Less accurate</string>
+    <string name="settings_accuracy_text_more">More accurate</string>
+    <string name="settings_title">Settings</string>
+    <string name="add_new_gesture_title">Add new gesture</string>
+    <string name="add_new_gesture_description">Tap on a category to create and assign a gesture to an app, action, contact or website.</string>
+    <string name="add_new_gesture_app_text">Assign a gesture to an app.</string>
+    <string name="add_new_gesture_direct_text">Assign a gesture to a direct call, SMS or email</string>
+    <string name="add_new_gesture_contact_text">Assign a gesture to a contact</string>
+    <string name="add_new_gesture_web_text">Assign a gesture to a web address</string>
+    <string name="app_gesture_title">App gesture</string>
+    <string name="app_gesture_description">Tap on an app to create and assign a gesture to launch it.</string>
+    <string name="direct_contact_title">Direct contact gesture</string>
+    <string name="direct_contact_description">Tap on an action to create and assign a gesture to phone, text or email this contact</string>
+    <string name="direct_contact_phone">Phone</string>
+    <string name="direct_contact_text">Text</string>
+    <string name="direct_contact_email">Email</string>
+    <string name="draw_gesture_title">Draw a new gesture for</string>
+    <string name="review_gesture_title">Review your gesture for</string>
+    <string name="review_gesture_reminder">Remember how you draw this gesture – you\’ll need to enter it the same way each time you want to use it.</string>
+    
+    
+    <string name="url_gesture_popup_title">Enter web address</string>
+    <string name="gesture_exists_popup_text">This gesture is very similar to one you\’ve already created. Are you sure you want to save it?</string>
+    <string name="gesture_too_long_toast">This gesture is too long – try something simpler.</string>
+    <string name="delete_gesture_popup_text">Are you sure that you want to delete this gesture?</string>
+    <string name="text_q1">What’s Gesty for?</string>
+    <string name="text_a1">Gesty lets you create personal, hand drawn gestures that act as shortcuts to the functions you use the most on your phone. You can create gestures for contacts, apps and websites.</string>
+    <string name="text_q2">What is a gesture?</string>
+    <string name="text_a2">Here a gesture is a figure or shape that you can draw with your finger on the Gesty homescreen to access your favourite functions. Gestures can be one or two letters, numbers, abstract characters or something else simple to draw and easy to remember.</string>
+    <string name="text_q3">How do I use Gesty?</string>
+    <string name="text_a3">Once you\’ve added the Gesty widget to your Android homescreen, you can launch it with a single tap. Once launched you\’ll be prompted to draw the gesture for the function you want, or you can access your saved gestures list where you can create new and edit existing gestures. For a practical demo, take the tour by tapping the \‘Intro\’ button on the Gesty welcome page.</string>
+    <string name="text_q4">How many gestures can I save?</string>
+    <string name="text_a4">You can save as many gestures as you can remember and recreate.</string>
+    <string name="text_q5">Can I have more than one character in a gesture?</string>
+    <string name="text_a5">Yes, but the more complicated you make a gesture, the harder it is to recreate accurately so we suggest keeping them simple.</string>
+    <string name="text_q6">Can I edit existing gestures?</string>
+    <string name="text_a6">To edit and delete a gesture, go to your saved gestures list, tap on the gesture you want to edit and then tap the \‘Edit\’ or \‘Delete\’ button.</string>
+    <string name="text_q7">I can’t remember how I drew a gesture, what should I do?</string>
+    <string name="text_a7">To see how you drew a gesture, go to your saved gestures list, tap on the gesture in question and watch the animation of how you drew it. All your gestures must be recreated in the same way you originally drew them.</string>
+    <string name="text_q8">Why don’t some of my gestures work?</string>
+    <string name="text_a8">If a gesture doesn’t work, it isn’t being recognised accurately enough. To adjust accuracy recognition, tap on the settings icon in the top right of your screen and slide the accuracy bar towards ‘Less accurate’. Generally, we recommend keeping the accuracy bar centred to ensure the best recognition rate. The best way to ensure your gestures are always recognised is to keep them simple and make sure no two are too similar.</string>    
+    
+    
+    
+    
+    
+    
+    
+</resources>

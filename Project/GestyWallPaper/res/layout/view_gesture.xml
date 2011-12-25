@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+    <LinearLayout
+        android:id="@+id/view_gesture_button_bar"
+		android:layout_alignParentBottom="true"
+		android:paddingTop="32dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="10dp"
+		
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/view_gesture_delete"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="deleteGesture"
+            android:background="@drawable/btn_light_grey_selector"
+            android:text="@string/button_delete" />
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="acceptGesture"
+            android:background="@drawable/btn_light_grey_selector"
+            android:text="@string/button_ok" />
+    </LinearLayout>
+    
+    
+	<LinearLayout
+		   android:layout_width="fill_parent"
+		   android:layout_height="wrap_content"
+		   android:id="@+id/view_gesture_top_bar"
+		   android:layout_alignParentTop="true"
+		   android:layout_marginBottom="20dp"
+		   android:background="@color/base_gray"
+		   android:orientation="vertical">
+		   <include android:id="@+id/contact_header"
+	        	layout="@layout/contact_header"/>
+    </LinearLayout> 	
+    <com.vodafone.gesty.ui.custom.RepeatGestureSurfaceView
+          android:id="@+id/mysurfaceview"
+          android:layout_width="fill_parent"
+          android:layout_height="341dp"
+          android:gravity="center"
+          android:layout_gravity="center"
+          android:layout_below="@id/view_gesture_top_bar"
+          android:layout_above="@id/view_gesture_button_bar"/>
+    <TextView
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_alignTop="@id/mysurfaceview"
+		   android:layout_alignLeft="@id/mysurfaceview"
+           android:text="Remember how you draw this gesture – you’ll need to recreate it the same way each time you want to use it."
+		   android:paddingLeft="14dp"
+		   android:paddingRight="10dp"
+		   android:paddingTop="30dp"
+		   android:textAppearance="@style/TextMedium"
+		   android:gravity="center_vertical">
+	</TextView>	      
+    <LinearLayout
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:orientation="horizontal"
+		   android:layout_alignBottom="@id/mysurfaceview"
+		   android:layout_alignLeft="@id/mysurfaceview"
+		   android:layout_marginLeft="14dp"
+		   android:layout_marginBottom="10dp"
+		   android:onClick="editGesture"
+		   android:clickable="true"
+		   android:focusable="true">
+		  <ImageView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:src="@drawable/icon_gesty">
+		  </ImageView>
+	   	  <TextView
+					android:text="@string/button_retry"
+					android:layout_height="fill_parent"
+					android:layout_width="wrap_content"
+					android:textAppearance="@style/TextMedium"
+				    android:gravity="center_vertical">
+	      </TextView>
+  	 </LinearLayout>    
+</RelativeLayout>

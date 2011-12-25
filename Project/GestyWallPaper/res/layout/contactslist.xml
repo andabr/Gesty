@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:divider="@color/base_gray"
+	android:background="@drawable/background_gradient">
+    <include android:id="@+id/default_menus"
+        	layout="@layout/menu_block"/>
+	<LinearLayout
+	       android:layout_width="fill_parent"
+	       android:layout_height="64dp"
+	       android:orientation="horizontal">
+	       <ToggleButton
+	           android:id="@+id/toggle_tab_all_contacts"
+	           android:layout_width="fill_parent"
+	           android:layout_height="fill_parent"
+	           android:background="@drawable/tab_left_selector"
+	           android:textAppearance="@style/TextMediumBold"
+	           android:textOn="@string/tab_all_contacts"
+	           android:textOff="@string/tab_all_contacts"
+	           android:layout_weight="1"
+			   android:gravity="center"
+			   android:layout_gravity="left"/>
+	       <View
+	          android:layout_width="1dp"
+	          android:layout_height="fill_parent"
+	          android:background="@drawable/tabbar_separator"/>
+	       <ToggleButton
+	           android:id="@+id/toggle_tab_fav_contacts"
+	           android:layout_width="fill_parent"
+	           android:layout_height="fill_parent"
+	           android:background="@drawable/tab_right_selector"
+	           android:textAppearance="@style/TextMediumBold"
+	           android:textOff="@string/tab_favourites"
+	           android:textOn="@string/tab_favourites"
+	           android:layout_weight="1"
+	           android:gravity="center"
+			   android:layout_gravity="left"/>
+    </LinearLayout>
+    <include android:id="@+id/searchView"
+        layout="@layout/search_bar"/> 
+    <ListView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:cacheColorHint="#FFFFFFFF"
+      android:id="@android:id/list">
+    </ListView>
+    <!-- Transparent filler -->
+    <TextView android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="No contacts found"
+        android:textColor="@color/pinned_header_background"
+        android:gravity="center_horizontal"
+    />
+</LinearLayout>
