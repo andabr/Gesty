@@ -102,7 +102,7 @@ public class AmbilWarnaDialog {
 		});
 
 		dialog = new AlertDialog.Builder(context)
-			.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+			.setPositiveButton("save", new DialogInterface.OnClickListener() {
 				@Override public void onClick(DialogInterface dialog, int which) {
 					if (AmbilWarnaDialog.this.listener != null) {
 						AmbilWarnaDialog.this.listener.onOk(AmbilWarnaDialog.this, getColor());
